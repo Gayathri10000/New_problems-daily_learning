@@ -29,7 +29,7 @@ class Solution(object):
                     magneticballs -= 1 
                     if magneticballs == 0: # when the m value is equal to 0 then return true
                         return True
-
+            return False
         res = -1 
 
         # the binary search  
